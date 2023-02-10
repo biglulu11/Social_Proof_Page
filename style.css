@@ -1,0 +1,145 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --verified: hsl(333, 80%, 67%);
+    --box-background: hsl(300, 85%, 21%);
+    --white: hsl(0, 0%, 100%);
+    --span_bac: hsl(300, 29%, 91%);
+}
+.detail h1{
+    color: var(--box-background);
+    font-size: 30px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.detail p {
+    font-size: 12px;
+}
+body{
+    max-width: 800px;
+    margin: 30px auto;
+}
+/* FIRST - DIVISION */
+.review{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.detail{
+    width: 200px;
+}
+.a {
+    position: relative;
+}
+.one {
+    right: 80px;
+}
+.two {
+    right: 40px;
+}
+span{
+    display: block;
+    background-color: var(--span_bac);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.moon {
+    display: flex;
+   
+}
+.tagg {
+    background-color: var(--box-background);
+    color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    position: relative;
+    width: 30%;
+    /* text-align: center; */
+    /* align-items: center; */
+    
+}
+
+
+img {
+    border-radius: 50%;
+    
+}
+.x, .y {
+    position: relative;
+    left: 100px;
+    bottom: 60px;
+    
+}
+
+
+p {
+    font-size: 18px;
+    text-align: center;
+    /* padding-top: -10px; */
+    
+}
+
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 16px;
+    color: var(--verified);
+}
+.five{
+    top: 20px;
+}
+.six {
+    top: 40px;
+}
+@media (max-width: 640px) {
+    .review {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .moon {
+        flex-direction: column;
+        text-align: center;
+        align-items: cent        er;
+        flex-wrap: wrap;
+    }
+    .tagg {
+        width: fit-content;
+        align-items: center;
+    }
+    .a {
+        position: unset;
+    }
+    img {
+        margin-right: 300px;
+    }
+    .x {
+        margin-right: 250px;
+    }
+    .y {
+        margin-right: 250px;
+    }
+    /* .moon {
+        flex-direction: column; 
+        text-align: center;
+        align-items: center; */
+        /* flex-wrap: wrap; */
+        /* background-size: contain; */
+        /* position: relative; */
+   
+            /* position: unset; *
+        /* .x .y { */
+             /* align-items: center;  */
+             /* text-align: left;  */
+      
+    } 
+
+    
